@@ -1,0 +1,131 @@
+/* styles.css */
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(back.jpeg) ;
+overflow-y: auto;}
+    
+
+header {
+    background-color: #333;
+    color: #6DA095;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #DEF4F6;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    color: #b0ecdf;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+.video-container
+{
+    overflow: hidden;
+    width: 100%;
+}
+video{
+    width: auto;
+    height: auto;
+    padding: 0%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+}
+
+form button {
+    padding: 10px;
+    background-color: #f1eaea;
+    color: #251e1e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 70px;
+    margin-left: 280px;
+}
+
+form button:hover {
+    background-color: #3524ce;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+}
+.team-member img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.hero{
+    color: aqua;
+
+}
+.gallery img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    transition: trasform 0.5s ease-in-out;
+}
+.gallery img:hover{
+    transform: scale(1.1) rotate(5deg);
+}
+.qua img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    transition: trasform 0.5s ease-in-out;
+}
+.qua img:hover{
+    transform: scale(1.1) rotate(5deg);
+}
